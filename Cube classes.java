@@ -45,7 +45,7 @@ class MainClass{
 			private int depth;
 			Rectangle(int x, y, z){
 				height = x;
-			    width = y;
+			        width = y;
 				depth = z;
 			}
 		
