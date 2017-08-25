@@ -1,5 +1,8 @@
 class MainClass{
 	public static void main(String[] args){
+		abstract class Shape{
+		    
+		}
 		class Cube extends Shape{
 			public String status = 'Cube'
 			public int sides = 6;
@@ -34,6 +37,7 @@ class MainClass{
 					return False;
 			}
 			if (widen == True || lengthen == True || heighten == True){
+				this.status = 'Non-Cube';
 		}		
 		class Rectangle extends Cube{
 			private int height;
